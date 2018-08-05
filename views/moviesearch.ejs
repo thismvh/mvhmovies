@@ -1,0 +1,42 @@
+<% include ./partials/header.ejs %>
+
+<div class="page-header clear-filter" filter-color="orange">
+    <div class="page-header-image" style="background-image:url(https://bit.ly/2KrkPQ5)"></div>
+    <div class="content">
+      <div class="container">
+        <div class="col-md-4 ml-auto mr-auto">
+          <div class="card card-login card-plain">
+            <form class="form" method="GET" action="results">
+              <div class="card-header text-center">
+                <div class="logo-container">
+                  <img src="https://bit.ly/2naafnm" alt="">
+                </div>
+                <p>Enter a Movie Title And Start Searching!</p>
+              </div>
+              <div class="card-body">
+                <div class="input-group no-border input-lg">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text">
+                      <i class="fas fa-film"></i>
+                    </span>
+                  </div>
+                  <input type="text" name="search" class="form-control" placeholder="Movie Title..." required>
+                </div>
+                <div class="input-group no-border input-lg">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text">
+                      <i class="now-ui-icons text_caps-small"></i>
+                    </span>
+                  </div>
+                  <input type="text" name="y" placeholder="Year (optional)" class="form-control" />
+                </div>
+              </div>
+              <button class="btn btn-primary btn-round btn-lg btn-block">Search</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+<% include ./partials/header.ejs %>

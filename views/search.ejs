@@ -1,0 +1,33 @@
+<% include ./partials/header %>
+
+<h1>This is the form page</h1>
+
+
+<form action="/results" method="GET">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="form-group">
+        <div class="input-group mb-4">
+          <div class="input-group-prepend">
+            <span class="input-group-text"><i class="ni ni-zoom-split-in"></i></span>
+          </div>
+          <input class="form-control" name="search" placeholder="Movie Title?" type="text">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <div class="form-group has-success">
+        <input type="text" placeholder="Success" class="form-control is-valid" />
+      </div>
+    </div>
+  </div>
+</form>
+
+<form action="/results" method="GET">
+    <input type="text" name="search" placeholder="What movie are you looking for?">
+    <button>Search</button>
+</form>
+
+<% include ./partials/header %>
